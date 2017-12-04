@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TriangleButtonView">
+        <attr name="tbv_button" format="string|reference"/>
+        <attr name="tbv_textSize" format="dimension"/>
+        <attr name="tbv_textColor" format="color"/>
+        <attr name="tbv_textPadding" format="dimension"/>
+        <attr name="tbv_buttonWidth" format="dimension"/>
+        <attr name="tbv_buttonHeight" format="dimension"/>
+        <attr name="tbv_buttonBackground" format="reference"/>
+        <attr name="tbv_leftButtonBackground" format="reference"/>
+        <attr name="tbv_rightButtonBackground" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.blingbling.trianglebuttonview.TriangleButtonView
+        android:id="@+id/tbv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tbv_button="品牌,价格,车型,排量,其他"
+        app:tbv_buttonBackground="@drawable/bg_selector"
+        app:tbv_buttonHeight="120dp"
+        app:tbv_buttonWidth="180dp"
+        app:tbv_textColor="@color/text_selector"
+        app:tbv_textPadding="12dp"
+        app:tbv_textSize="18sp"/>
+
+</LinearLayout>
