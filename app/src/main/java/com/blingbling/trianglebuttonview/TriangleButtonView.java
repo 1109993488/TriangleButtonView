@@ -30,7 +30,6 @@ public class TriangleButtonView extends View {
     private static final int DEFAULT_BUTTON_WIDTH = 100;
     private static final int DEFAULT_BUTTON_HEIGHT = 60;
     //    //按钮文字大小、颜色
-//    private int mTextSize;
     private ColorStateList mTextColor;
     private int mCurTextColor;
     //按钮背景
